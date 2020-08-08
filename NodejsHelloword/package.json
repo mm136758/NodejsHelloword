@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-helloword",
+  "version": "0.0.0",
+  "description": "NodejsHelloword",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
