@@ -32,7 +32,13 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="demo_querystring.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="index.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Page1.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="router.js">
@@ -41,6 +47,9 @@
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="test_moudle.js">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
