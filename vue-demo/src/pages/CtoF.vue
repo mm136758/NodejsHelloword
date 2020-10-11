@@ -5,6 +5,7 @@
     <div class="celsius">
       攝氏：<input type='number' v-model="celsius" /> °C
     </div>
+    <img src="static/image/5DUIcox.jpg" alt="manga" />
   </div>
 </template>
 <script>
